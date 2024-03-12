@@ -40,7 +40,7 @@ int main()
 void input(int size)
 {
 	STUD buf = { ' ', ' ' };
-	if (!fopen_s(&f, "base.bin", "ab"))
+	if (!fopen_s(&f, "base.txt", "ab"))
 	{
 		for (int p = 0; p < size; p++)
 		{
@@ -59,7 +59,7 @@ void input(int size)
 void output()
 {
 	STUD buf;
-	if (!fopen_s(&f, "base.bin", "rb"))
+	if (!fopen_s(&f, "base.txt", "rb"))
 	{
 		cout << "\nФамилия    Группа\n";
 		fread(&buf, sizeof(buf), 1, f);

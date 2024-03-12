@@ -1,0 +1,74 @@
+﻿Сборка начата 29.02.2024 12:07:13.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\oap1.2\referatTest\referatTest\referatTest.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\referatTest.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\referatTest.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt test.cpp
+         test.cpp
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C2543: требуется "]" для оператора "[]"
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,2): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "overloaded-function" (или приемлемое преобразование отсутствует)
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+         может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+         или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+         
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,2): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,11): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,22): error C2143: синтаксическая ошибка: отсутствие ";" перед "]"
+     1>D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,22): error C2059: синтаксическая ошибка: ]
+     1>Сборка проекта "D:\labs\oap1.2\referatTest\referatTest\referatTest.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\labs\oap1.2\referatTest\referatTest\referatTest.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C2543: требуется "]" для оператора "[]"
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,2): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "overloaded-function" (или приемлемое преобразование отсутствует)
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,2): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,11): error C3867: "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator []": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,21): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,22): error C2143: синтаксическая ошибка: отсутствие ";" перед "]"
+         D:\labs\oap1.2\referatTest\referatTest\test.cpp(14,22): error C2059: синтаксическая ошибка: ]
+
+    Предупреждений: 0
+    Ошибок: 8
+
+Прошло времени 00:00:00.98

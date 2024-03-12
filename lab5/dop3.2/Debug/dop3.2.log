@@ -1,0 +1,35 @@
+﻿Сборка начата 22.02.2024 17:30:35.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\oap1.2\lab5\dop3.2\dop3.2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\dop3.2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\dop3.2.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt notebook2.cpp
+         notebook2.cpp
+     1>D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(145,10): warning C4101: c: неиспользованная локальная переменная
+     1>D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(144,9): warning C4101: buff: неиспользованная локальная переменная
+     1>D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(182,30): warning C4101: c: неиспользованная локальная переменная
+     1>D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(183,16): warning C4101: h: неиспользованная локальная переменная
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\oap1.2\lab5\Debug\dop3.2.exe" /INCREMENTAL /ILK:"Debug\dop3.2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\oap1.2\lab5\Debug\dop3.2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\oap1.2\lab5\Debug\dop3.2.lib" /MACHINE:X86 Debug\notebook2.obj
+         dop3.2.vcxproj -> D:\labs\oap1.2\lab5\Debug\dop3.2.exe
+       FinalizeBuildStatus:
+         Файл "Debug\dop3.2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\dop3.2.tlog\dop3.2.lastbuildstate".
+     1>Сборка проекта "D:\labs\oap1.2\lab5\dop3.2\dop3.2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\labs\oap1.2\lab5\dop3.2\dop3.2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(145,10): warning C4101: c: неиспользованная локальная переменная
+         D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(144,9): warning C4101: buff: неиспользованная локальная переменная
+         D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(182,30): warning C4101: c: неиспользованная локальная переменная
+         D:\labs\oap1.2\lab5\dop3.2\notebook2.cpp(183,16): warning C4101: h: неиспользованная локальная переменная
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:02.76

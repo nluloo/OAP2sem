@@ -39,7 +39,7 @@ double yravn2(double a, double b, double e) {
 	while (abs(a - b) > 2 * e)
 	{
 		x = (a + b) / 2;
-		if (f2(x) * f2(a) <= 0) {
+		if (f2(x) * f2(a) <= 0) {y
 			b = x;
 		}
 		else {
